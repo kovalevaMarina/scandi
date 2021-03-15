@@ -104,20 +104,21 @@ ul, h1, h2, h3, p {
 }
 
 .btn {
-  display: block;
-  width: 173px;
+  border: none;
   background-color: #CC8B86;
   color: #533738;
+  margin-right: auto;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   padding: 24px 67px;
   text-align: center;
   transition: 0.2s ease;
+  cursor: pointer;
 }
 
 .btn:hover {
-  opacity: 0.8;
+  background-color: rgba(204, 139, 134, 0.8);
 }
 
 .about-title {
@@ -337,4 +338,90 @@ ul, h1, h2, h3, p {
 
 .work-description {
   margin-top: 20px;
+}
+
+.contacts {
+  background-color: #8D7370;
+}
+
+.contacts-inner {
+  display: flex;
+}
+
+.contacts-item {
+  flex-basis: 49%;
+}
+
+.contacts-form {
+  padding: 50px 0 0 86px;
+  margin-right: 20px;
+}
+
+.contacts-form_title {
+  color: #FFFFFF;
+}
+
+.contacts-form_description {
+  color: #FFFFFF;
+  opacity: 0.6;
+  margin: 24px 0 44px;
+}
+
+.contacts-form_input {
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background: transparent;
+  transition: all 0.5s ease;
+}
+
+.contacts-form_input:hover,
+.contacts-form_input:focus {
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.contacts-form_input::placeholder {
+  color: #F6EDE9;
+}
+
+.btn-form {
+  margin-top: 20px;
+}
+
+.contacts-map {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.contacts-map iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.page-footer {
+  padding: 37px 0;
+}
+
+.footer-inner {
+  display: flex;
+}
+
+.footer-phone {
+  color: #533738;
+}
+
+.footer-address {
+  margin-left: 42px;
+}
+
+.footer-text {
+  margin-left: auto;
 }
