@@ -7,3 +7,9 @@ function handleOut(e) {
 }
 
 $('.portfolio-item').hover(handleIn, handleOut)
+
+$(function () {
+
+  $('.reviews-slider').slick();
+
+});
