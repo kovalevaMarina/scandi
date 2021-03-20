@@ -350,6 +350,65 @@ ul, h1, h2, h3, p {
   display: flex;
 }
 
+.reviews-slider {
+  margin: 0 100px;
+  padding: 0 100px;
+}
+
+.big-blockquote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.reviews-author {
+  text-transform: uppercase;
+}
+
+.reviews-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews-img img:last-child {
+  margin-top: 20px;
+}
+
+.slick-active {
+  outline: none;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  border: none;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  background-color: #CC8B86;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.slick-arrow:active {
+  background-color: rgba(204, 139, 134, 0.6);
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-next {
+  right: 0;
+}
+
 .contacts {
   background-color: #8D7370;
 }
